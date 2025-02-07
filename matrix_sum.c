@@ -1,3 +1,8 @@
+/*Author:Joswin Shaju
+  Date:07/02/2025
+  Matrix Addition
+*/
+
 #include<stdio.h>
 int main(){
   int row,col;
