@@ -6,16 +6,16 @@
 #include<stdio.h>
 int main(){
   int row,col;
-  printf("\nEnter the row and column:");
+  printf("\n Enter the row and column:");
   scanf("%d%d",&row,&col);
   int m1[row][col];
-  printf("\nEnter the elements:\n");
+  printf("\n Enter the elements:\n");
     for(int i=0;i<row;i++){
       for(int j=0;j<col;j++){
         scanf("%d",&m1[i][j]);
     }
   }
-  printf("\nThe matrix:\n");
+  printf("\n The transposed matrix is:\n");
   for(int i=0;i<col;i++){
     for(int j=0;j<row;j++){
       printf("%d\t",m1[j][i]);
