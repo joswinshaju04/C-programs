@@ -14,9 +14,9 @@ int main(){
   
   int comp=strcmp(str1,str2);
   if(comp==0){
-    printf("\n Its equal");
+    printf("\n They are equal");
   }else{
-    printf("\n Its not equal");
+    printf("\n They are not equal");
   }
   return 0;
 }
