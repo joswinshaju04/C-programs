@@ -37,6 +37,6 @@ int main(){
 	}
 	avg_mark=totl_mark/n;
 	printf("\nTotal mark is : %d\n",totl_mark);
-	printf("average mark is : %d\n",avg_mark);
+	printf("Average mark is : %d\n",avg_mark);
 	return 0;	
 }	
