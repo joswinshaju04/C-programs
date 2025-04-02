@@ -10,8 +10,11 @@ typedef struct{
 	float cgpa;
 }student;
 int main(){
-	student s[3];
-	for(int i=0;i<3;i++){
+	int n;
+	printf("enter the limit");
+	scanf("%d",&n);
+	student s[n];
+	for(int i=0;i<n;i++){
 		printf("\nEnter the name:");
 		scanf("%s",s[i].name);
 		printf("\nEnter the roll no:");
@@ -19,10 +22,10 @@ int main(){
 		printf("\nEnter the CGPA:");
 		scanf("%f",&s[i].cgpa);
 	}
-	for(int i=0;i<3;i++){
+	for(int i=0;i<n;i++){
 		printf("\nName: %s",s[i].name);
 		printf("\nRoll No: %d",s[i].rollNo);
-		printf("\nCGPA: %f",s[i].cgpa);
+		printf("\nCGPA: %f\n",s[i].cgpa);
 	}
 	return 0;
 }
